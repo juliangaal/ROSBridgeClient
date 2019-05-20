@@ -7,7 +7,7 @@ A [rosbridge v2.0](http://wiki.ros.org/rosbridge_suite) client.
 
 It allows you to work with ROS on not officially supported hardware or operating systems.
 
-**DO NOT USE THIS YET**
+**DEPRECATED, USE AT YOUR OWN RISK**. This will eventually be rewritten with https://github.com/target/libdart
 
 *Important Note*: as of now, tornado >= 4.5.3 breaks the websocket connection with rosbridge. See [issue](https://github.com/RobotWebTools/rosbridge_suite/issues/371). 
 If your connection is dropped at the fist send attempt, check your tornado version with `pip show tornado`.
